@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Python</title>
+
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div id="calculadora">
+      <form style="width: 100%" method="post" action="">
+        <div id="operacao">
+          <div>
+            <label>Digite um numero</label>
+            <input type="number" class="form-control" name="num1" />
+          </div>
+
+          <div id="operadores">
+            <div>
+              <input type="radio" value="soma" name="escolha" checked />
+              <label for="soma">+</label>
+            </div>
+
+            <div>
+              <input type="radio" value="sub" name="escolha" />
+              <label for="sub">-</label>
+            </div>
+
+            <div>
+              <input type="radio" value="mult" name="escolha" />
+              <label for="mult">x</label>
+            </div>
+
+            <div>
+              <input type="radio" value="div" name="escolha" />
+              <label for="div">÷</label>
+            </div>
+          </div>
+
+          <div>
+            <label>Digite um numero</label>
+            <input type="number" class="form-control" name="num2" />
+          </div>
+        </div>
+
+        <button
+          type="submit"
+        >
+          Calcular
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
